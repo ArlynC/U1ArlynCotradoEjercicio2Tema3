@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 import androidx.appcompat.widget.Toolbar;
@@ -43,6 +44,21 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case R.id.activity_intenciones:
+                startActivity(new Intent(this, Intenciones.class));
+                break;
+            case R.id.activity_multimedia:
+                startActivity(new Intent(this, Multimedia.class));
+                break;
+            case R.id.activity_permisos:
+                startActivity(new Intent(this, Permisos.class));
+                break;
+            case R.id.activity_mirecyclerview:
+                startActivity(new Intent(this, MiRecyclerView.class));
+                break;
+            case R.id.activity_mifragmenttabhost:
+                startActivity(new Intent(this, MiFragmentTabhost.class));
+                break;
             case R.id.nav_compartir:
                 Intent paramView;
                 paramView = new Intent("android.intent.action.SEND");

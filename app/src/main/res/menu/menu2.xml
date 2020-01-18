@@ -1,14 +1,20 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
-        <item android:id="@+id/Fragment1"
-            android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Fragmento ejemplo1" />
-        <item android:id="@+id/Fragment2"
-            android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Fragmento ejemplo2" />
-        <item android:id="@+id/Fragment3"
-            android:icon="@android:drawable/ic_menu_gallery"
-            android:title="Fragmento ejemplo3" />
+        <item android:title="Intenciones"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:id="@+id/activity_intenciones"/>
+        <item android:title="Multimedia"
+            android:icon="@android:drawable/ic_media_play"
+            android:id="@+id/activity_multimedia"/>
+        <item android:title="Permisos"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:id="@+id/activity_permisos"/>
+        <item android:title="Mi Recycler View"
+            android:icon="@android:drawable/ic_menu_agenda"
+            android:id="@+id/activity_mirecyclerview" />
+        <item android:title="MiFragmentTabhost"
+            android:icon="@android:drawable/ic_menu_preferences"
+            android:id="@+id/activity_mifragmenttabhost"/>
     </group>
     <item android:title="Acciones adicionales">
         <menu>
